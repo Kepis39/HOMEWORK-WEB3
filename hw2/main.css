@@ -1,19 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url("variable.ttf");
+    src: url(шрифты/Roboto-VariableFont_wdth,wght.ttf);
 }
-header{
-    width: 1920px;
-    height: 1475px;
-    background-color: #004449;
+body{
+    color: #004449;
+    font-family: 'Roboto' , sans-serif;
 }
 header{
     width: 100%;
-    height: 51px;
+    height: 50px;
     background-color: #004449;
     display: flex;
     justify-content: center;
@@ -25,200 +25,199 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav p{
- color:#D7FFC2;
-font-size: 9px;
-}
 a{
-    color:white;
+    color: white;
     text-decoration: none;
-    font-size: 13px;
-    transition: 0.3s all ease;
+    font-size: 16px;
+    transition: 0.4s all ease;
+}
+a:hover{ color:greenyellow; }
+nav p{
+    font-size: 12px;
+    color:#D7FFC2;
 }
 .section1{
     background-color: #004449;
     width: 100%;
-    height: 900px;
+    height: 1300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-.section1 h1{
-    color: white;
-    font-size: 52px;
-    font-weight: 400;
-    margin-top: 205px;
-    
-}
-.section1 h2{
-    color:#cc9672;
-    font-size: 48px;
-}
-.section1 p{
-color: white;
-font-size: 23px;
-margin: 25px 0;
-}
-.section1 button {
-background-color: #3bd172;
-color: black;
-font-size: 10px;
-border-radius: 80px;
-border: none;
-width: 225px;
-height: 50px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-}
-
-.lasttxt h5{
-    color: white;
-    margin-top: 120px;
-    font-size: 13px;
+.niz{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.niz p{
+    font-size: 18px;
 }
 .images{
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
-.section2{
-background-image: url(картинки/LESS.png);
-width: 100%;
-height: 970px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-}
-h1{ font-size: 42px;     
+.section1 h1{
+    font-size: 80px;
+    color: #FFAC7F;
     font-weight: 400;
-    color:#004449;
+}
+.section1 h1:first-line{ color: white; }
+.section1 p{
+    margin: 25px 0;
+    font-size: 32px;
+    color: white;
+}
+.section1 button{
+    border-radius: 30px;
+    border: none;
+    width: 338px;
+    height: 56px;
+    background-color: #0BFF80;
+    color:black;
     display: flex;
-    justify-content:center;
-align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
-h2{ font-size: 24px;     
-    font-weight: 400;
+.section2{
+    background-image: url(картинки/fon.png);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 p{ 
     font-size: 16px;
     line-height: 1.5;
 }
-table{
-    width: 100%;
-    text-align: center;
+h2{ font-size: 24px;     
+    font-weight: 400;
 }
-td{
-    padding: 20px;
-    text-align: center;
+h1{ font-size: 48px;     
+    font-weight: 400;
 }
-table tr:first-child td{
-    vertical-align: bottom;
-    padding-bottom: 0;
-}
-.text{
+.txt{
     background-color: white;
     border-radius: 7px;
-    width: 355px;
-    height: 100px;
+    width: 357px;
+    height: 184px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    margin: 0 auto;
 }
-.text p{
-    text-align: center;
-    margin: 0 auto;
-}
-.text2{
-    border-radius: 10px 10px 10px 10px;
-    background-position:40px;
-    background-color: #D7FFC2;
-    width: 700px;
-    height: 300px;
-    text-align: center;
-    padding: 30px;
+.above{
+    width: 100%;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-   align-items: center;
-
+    justify-content: center;
+    align-items: center;
 }
-.gone{ 
-    color: #007A83; margin-left: 10px; 
-}
-.bgg{
+.verh{
+    width: 90%;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.txt p{
+    text-align: center;
+    margin: 0 auto;
 }
 .p1{
-    color: #5c9456;
-    line-height: 1.2;
-    font-size: 12px;
+    line-height: 1.5;
+    font-size: 11px;
+}
+.gone{ color: #007A83; margin-left: 10px;}
+.h1_gone{
+    display: flex;
 }
 button{
     color: white;
-    background-color: #372eb3;
-    border-radius: 200px ;
-    width: 150px;
+    background-color: #483CFF;
+    border-radius: 50px;
+    width: 140px;
     height: 100px;
     border: none;
+    line-height: 1.5;
 }
-.section3{
-    width: 100%;
-    height: 894px;
+.booked{
+    background-color: #D7FFC2;
+    width: 765px;
+    height: 370px;
+    text-align: center;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+.above{
+   text-align: center;
+}
+.section3{
+    height: 894px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.price{
+    background-color: #FDD6BA;
+    border-radius: 50px;
+    width: 126px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .section3 h2{
     font-size: 25px;
     white-space: nowrap;
 }
+.s3_img{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
 span{
     background-color: #D7FFC2;
     margin: 0 10px;
 }
-.images3{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-   
-}
-.section3 button{
+.section3 button, .s4_button button{
     background-color: #004449;
     border-radius: 40px;
-    border: none;
-    width: 45px;
-    height: 45px;
+     border: none;
+     width: 48px;
+    height: 48px;
     margin: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.foti {
-    margin: -14px;
+.mir, .b1{
+    transform: scaleX(-1);
+}
+.i, .i2, .ic{
+    width: 303px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-}
-.a1{
-    color: #004449;
+    justify-content: center;
 }
 .section4{
-    font-size: 64px;
-     background-image: url(картинки/vodichka\ \(2\).png);
+     background-image: url(картинки/fon2.png);
     width: 100%;
     height: 1078px;
     display: flex;
@@ -226,14 +225,14 @@ span{
     align-items: center;
     justify-content: center;
 }
-.zagolovok2{
-    text-align: center;
-    margin-bottom: 100px;
+.section4 h1{font-size: 64px;}
+.blokText{
+    width: 115%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.section4 h1{
-    font-size: 64px;
-}
-.textblock div{
+.blokText div, .del{
     width: 326px;
     height: 365px;
     background-color: white;
@@ -245,9 +244,16 @@ span{
     justify-content: flex-start;
     align-items: flex-start;
 }
-.textblock{
+.zagolovok{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.s4_button{
+    width: 150px;
+    height: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 .section5{
     width: 100%;
@@ -257,53 +263,279 @@ span{
     align-items: center;
     text-align: center;
 }
-.end{
+.mili{
     position: absolute;
-    margin-left: 540px;
-    width: 85%;
+    width: 58%;
     height: 565px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.text4 {
+.textik{
     width: 944px;
     height: 388px;
-    background-color:#BAEBFF;
+    background-color: #BAEBFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-ul li{
-    list-style: none;
-}
-.endsite{
-    color: white;
+footer{
+    width: 100%;
+    height: 575px;
     background-color: #004449;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+}
+.spiski{
     padding: 50px 25px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     line-height: 3;
 }
-.a3{
+.alo{
     margin-bottom: 40px;
 }
 footer .ale{
-    padding: 75px 50px;
+    padding: 0 0 0 250px;
 }
-.urakonec{
-    background-color:  white;
+.conec{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
-.urakonec h2{
+.conec h2{
     font-size: 14px;
-    color:#004449
 }
+
+@media (min-width:430px) and (max-width:740px)
+{
+    .section1{
+        height: 1000px;
+    }
+    .section1 h1{
+        font-size: 55px;
+    }
+    .section1 p {
+        font-size:22px;
+    }
+    .section1 button{
+    width: 200px;
+    height: 35px;
+    font-size: 10px;
+    }
+    .niz p{
+        font-size: 15px; 
+    }
+    .images img{
+        width: 45px;
+        height: 34px;
+    }
+    .section2{ 
+        justify-content: space-between;
+    }
+    .txt{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    .one{ 
+        width: 80%; 
+    }
+    .one img{
+        width: 100px;
+        height: 125px;
+    }
+    .txt h2{
+        font-size: 24px;
+    }
+    .txt p{
+        font-size: 10px;
+          }
+    .verh{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .above{
+    width: 100%;
+    height: 70%;
+    }
+    .above h1{
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+    .p1{
+        line-height: 1.5;
+        font-size: 11px;
+    }
+    button{
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+    }
+    .h1_gone h1{
+        font-size: 35px;
+    }
+    .booked{
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .price{
+        width: 56px;
+        height: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .section3{ 
+        height: 500px;
+    }
+    .section3 .price {
+        font-size: 20px;
+    }
+    .section3 h2{
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .p1{
+        font-size: 8px; 
+        position: relative;
+        bottom: 5px;
+    }
+    .section3 h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .section3 button{
+        width: 48px;
+        height: 48px;
+        margin: 15px;
+    }
+    .i, .ic {
+        width: 100px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s3_img{
+        width: 100%;
+        height: 300px;
+        gap: 8px;
+    }
+    .s3_img button, .s4_button button{
+        width: 24px;
+        height: 24px;
+    }
+    .s3_img button{
+        position: relative;
+        bottom: 30px;
+        margin: 10px;
+    }
+    .s3_img button img, .s4_button button img{
+        width: 15px;height: 15px;
+    }
+    .i img{
+        width: 92px;
+        height: auto;
+        position: relative;
+    }
+    .ic img{
+        width: 102px;height: auto;
+    }
+    .i h2 img, .ic h2 img{
+        width: 15px;
+        height: 15px;
+    }
+    .i h2, .ic h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        display: none;
+    }
+    .zagolovok h1{font-size: 40px;}
+    .section4 img{
+        width: 50%;
+        height: auto;
+    }
+    .blokText .del{
+        display: none;
+    }
+    .blokText{
+        width: 150%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .blokText div{
+        margin: 0;
+        height: 300px;
+    }
+    .blokText div p{
+        font-size: 11px; 
+    }
+    .textik{
+        width: 95%;
+        height: 80%;
+        justify-content: space-around;
+    }
+    .textik h1{
+        width: 80%;
+        font-size: 35px;
+    }
+    .textik h2{ 
+        font-size: 20px; 
+    }
+    .mili{
+        width: 100%;
+        height: auto;
+        top: 3835px;
+        right: 70px;
+    }
+    .mili img{
+        width: 60%;
+        height: auto;
+    }
+    footer{ 
+        height: 650px; 
+    }
+    footer .spiski{
+        flex-wrap: wrap;
+        padding: 0 15px;
+        gap: 30px;
+    }
+    .spiski ul li p{
+        font-size: 13px;
+    }
+    footer .ale{
+        padding: 0 0 0 117px; 
+    }
+    .alo{ 
+        margin-bottom: 20px; 
+        }
+}
+
 
 
 
