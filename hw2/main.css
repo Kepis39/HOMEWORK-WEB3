@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(шрифты/Roboto-VariableFont_wdth,wght.ttf);
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
 }
 body{
     color: #004449;
@@ -545,6 +545,7 @@ footer .ale{
         margin-bottom: 20px; 
         }
 }
+
 
 
 
