@@ -87,7 +87,7 @@ a:hover{
     justify-content: space-between;
 }
 .section2{
-    background-image: url(картинки/fon.png);
+    background-image: url(картинки/LESS.png);
     width: 100%;
     height: 1200px;
     display: flex;
@@ -223,7 +223,7 @@ span{
     justify-content: center;
 }
 .section4{
-     background-image: url(картинки/fon2.png);
+     background-image: url(картинки/vodichka\ \(2\).png);
     width: 100%;
     height: 1078px;
     display: flex;
@@ -545,6 +545,7 @@ footer .ale{
         margin-bottom: 20px; 
         }
 }
+
 
 
 
