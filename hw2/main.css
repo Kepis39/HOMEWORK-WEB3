@@ -47,26 +47,6 @@ a:hover{
     align-items: center;
     justify-content: space-around;
 }
-.niz{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.niz p{
-    font-size: 18px;
-}
-.images{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-.section1 h1{
-    font-size: 80px;
-    color: #FFAC7F;
-    font-weight: 400;
-}
 .section1 h1:first-line{ 
     color: white; 
 }
@@ -86,6 +66,26 @@ a:hover{
     justify-content: space-evenly;
     align-items: center;
 }
+.section1 h1{
+    font-size: 80px;
+    color: #FFAC7F;
+    font-weight: 400;
+}
+.lasttext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lasttext p{
+    font-size: 18px;
+}
+.image{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
 .section2{
     background-image: url(картинки/fon.png);
     width: 100%;
@@ -94,6 +94,17 @@ a:hover{
      flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.hgw{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hgw{
+   text-align: center;
 }
 p{ 
     font-size: 16px;
@@ -116,15 +127,7 @@ h1{ font-size: 48px;
     align-items: center;
     padding: 20px;
 }
-.above{
-    width: 100%;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.verh{
+.hight{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -141,7 +144,7 @@ h1{ font-size: 48px;
 .gone{ 
     color: #007A83; margin-left: 10px;
 }
-.h1_gone{
+.bg{
     display: flex;
 }
 button{
@@ -163,9 +166,6 @@ button{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-}
-.above{
-   text-align: center;
 }
 .section3{
     height: 894px;
@@ -214,7 +214,7 @@ span{
 .mir, .b1{
     transform: scaleX(-1);
 }
-.i, .i2, .ic{
+.foti_2, .foti_1, .foti_3{
     width: 303px;
     height: 500px;
     display: flex;
@@ -231,7 +231,9 @@ span{
     align-items: center;
     justify-content: center;
 }
-.section4 h1{font-size: 64px;}
+.section4 h1{
+    font-size: 64px;
+}
 .blokText{
     width: 115%;
     display: flex;
@@ -338,10 +340,10 @@ footer .ale{
     height: 35px;
     font-size: 10px;
     }
-    .niz p{
+    .lasttext p{
         font-size: 15px; 
     }
-    .images img{
+    .image img{
         width: 45px;
         height: 34px;
     }
@@ -357,10 +359,10 @@ footer .ale{
         align-items: center;
         padding: 20px;
     }
-    .one{ 
+    .zxcvb{ 
         width: 80%; 
     }
-    .one img{
+    .zxcvb img{
         width: 100px;
         height: 125px;
     }
@@ -370,18 +372,18 @@ footer .ale{
     .txt p{
         font-size: 10px;
           }
-    .verh{
+    .hight{
         width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
-    .above{
+    .hgw{
     width: 100%;
     height: 70%;
     }
-    .above h1{
+    .hgw h1{
         font-size: 33px;
         margin-bottom: 20px;
     }
@@ -394,7 +396,7 @@ footer .ale{
         height: 60px;
         font-size: 10px;
     }
-    .h1_gone h1{
+    .bg h1{
         font-size: 35px;
     }
     .booked{
@@ -435,7 +437,7 @@ footer .ale{
         height: 48px;
         margin: 15px;
     }
-    .i, .ic {
+    .foti_2, .foti_3 {
         width: 100px;
         height: 300px;
         display: flex;
@@ -460,27 +462,29 @@ footer .ale{
     .s3_img button img, .s4_button button img{
         width: 15px;height: 15px;
     }
-    .i img{
+    .foti_2 img{
         width: 92px;
         height: auto;
         position: relative;
     }
-    .ic img{
+    .foti_3 img{
         width: 102px;height: auto;
     }
-    .i h2 img, .ic h2 img{
+    .foti_2 h2 img, .foti_3 h2 img{
         width: 15px;
         height: 15px;
     }
-    .i h2, .ic h2{
+    .foti_2 h2, .foti_3 h2{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .i2{
+    .foti_1{
         display: none;
     }
-    .zagolovok h1{font-size: 40px;}
+    .zagolovok h1{
+        font-size: 40px;
+    }
     .section4 img{
         width: 50%;
         height: auto;
@@ -541,6 +545,7 @@ footer .ale{
         margin-bottom: 20px; 
         }
 }
+
 
 
 
